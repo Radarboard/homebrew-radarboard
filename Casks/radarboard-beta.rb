@@ -2,16 +2,16 @@ cask "radarboard-beta" do
   arch arm: "aarch64"
 
   version "0.1.1-beta.1"
-  sha256 "4fac31e2210d93e37f5ade1a47355622670c6705988aa4731e7e8c8fcde46d7a"
+  sha256 "f6aa4e40e5f58589d37d9b39c1b2ccb55d72d7487e9b01e6e3a862ad63c6a263"
 
-  url "https://github.com/thedaviddias/homebrew-radarboard/releases/download/desktop-v#{version}/Radarboard-#{version}-macos-#{arch}.dmg",
-      verified: "github.com/thedaviddias/homebrew-radarboard/"
+  url "https://github.com/Radarboard/homebrew-radarboard/releases/download/desktop-v#{version}/Radarboard-#{version}-macos-#{arch}.dmg",
+      verified: "github.com/Radarboard/homebrew-radarboard/"
   name "Radarboard Beta"
   desc "Local-first desktop board for code, ops, and growth signals"
   homepage "https://radarboard.app"
 
   livecheck do
-    url "https://github.com/thedaviddias/homebrew-radarboard/releases"
+    url "https://github.com/Radarboard/homebrew-radarboard/releases"
     regex(/^desktop-v(\d+(?:\.\d+){2}-beta\.\d+)$/i)
   end
 
