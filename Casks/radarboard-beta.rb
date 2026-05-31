@@ -1,8 +1,8 @@
 cask "radarboard-beta" do
   arch arm: "aarch64"
 
-  version "0.1.1-beta.1"
-  sha256 "f6aa4e40e5f58589d37d9b39c1b2ccb55d72d7487e9b01e6e3a862ad63c6a263"
+  version "0.1.1-beta.4"
+  sha256 "2a3a56e5f80d129b30725d36a2a078a77dbf14dfe3229191e4ac27bd6a511757"
 
   url "https://github.com/Radarboard/homebrew-radarboard/releases/download/desktop-v#{version}/Radarboard-#{version}-macos-#{arch}.dmg",
       verified: "github.com/Radarboard/homebrew-radarboard/"
